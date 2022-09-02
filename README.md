@@ -1,13 +1,13 @@
 # Task-tracker
 This is a task tracker application. where you can monitor your daily task.
 
-#### [Live-App](https://track-your-task.netlify.app/)
+#### [click-here-to-visit-live-App](https://track-your-task.netlify.app/)
 
 ## How to run the app
 1. Either fork or download the app and open the folder in the cli
 2. Install all dependencies using `npm install` command
 3. Start the web app server using the `npm run dev` command. the app will be served at http://127.0.0.1:5173/
-4. Go to http://127.0.0.1:5173/ in your browser and add your current income & expense
+4. Go to http://127.0.0.1:5173/ in your browser and add your all task
 
 ## How to add a task
 1. Click on the button at the top of the page
