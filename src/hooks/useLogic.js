@@ -50,8 +50,7 @@ function useLogic() {
   const closeForm = () => {
     setForm(false);
   };
-  const handleAddTodo = (event, task) => {
-    event.preventDefault();
+  const handleAddTodo = (task) => {
     const newTask = {
       id: genId.next().value,
       title: task.title,
