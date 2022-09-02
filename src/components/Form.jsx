@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 
 const Form = ({handleAddTodo, closeForm}) => {
   const schema = yup.object({
-    title: yup.string().required('Give a title here').max(25, 'title should be less than 25 character'),
+    title: yup.string().required('Give a title here'),
     description: yup.string().required('Description field is required')
   })
   const onSubmit = (data) => {
